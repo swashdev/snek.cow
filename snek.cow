@@ -1,0 +1,21 @@
+# snek.cow -- an adorable ascii snek for the popular Unix program cowsay
+# Devised out of boredom by Philip Pavlick <https://github.com/swashdev>
+# This file constitutes free and unencumbered software released into the
+# public domain.  This file is released "as-is" and with no warranties.
+# For more information, please refer to UNLICENSE, or <http://unlicense.org/>
+
+$the_cow = <<"EOC";
+        $thoughts
+         $thoughts  ___
+           ( $eyes)
+         ,  \\ \"\\
+        (\\   |  |
+       ,----/   |-----,
+      |_________|_____|
+EOC
+
+# To add snek to your cowsay program, copy this file into your COWPATH.
+# Typically this will be /usr/share/cowsay/cows
+# Use `cowsay -l` to see what directories are in COWPATH.
+# The snek's eyes can be customized in the usual way (see `man cowsay` to learn
+# how), but its tongue can not.
